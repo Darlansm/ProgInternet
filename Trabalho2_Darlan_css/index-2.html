@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="index-2.css">
+  </head>
+  <body>
+    <h1>Entre em contato</h1>
+    <form action="minhapagina.php" method="POST"> 
+      <input type="hidden" name="recipient" value="darlan.sm@aluno.ifsc.edu.br">    
+
+      <p> 
+        Nome:<br /> 
+        <input type="text" size="50" name="nome" required/> 
+      </p>   
+
+      <p>
+        E-mail:<br />       
+        <input type="email" size="50" name="email" required/>
+      </p> 
+      <p>
+        Telefone <br/>
+        <input type="tel" size="20" name="Telefone"/>
+      </p>
+      <p> 
+        Comentários:<br /> 
+
+        <textarea style="width:300px; height:200px" name="Comentarios">    
+        </textarea> 
+
+      </p>
+
+
+      <p> 
+        <input type="submit" name="BTEnvia" value="Enviar"> 
+        <input type="reset" name="BTApaga" value="Apagar">
+        <a href="index.html">Retorna</a>
+
+      </p> 
+
+    </form>
+  </body>
+</html>
