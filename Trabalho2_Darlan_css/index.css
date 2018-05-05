@@ -33,6 +33,12 @@ h2.titulo {
   overflow: hidden;
   background-color: #333333;
 }
+h2.titulo img{
+  width: 30px;
+  height: 30px;
+  object-position: left
+}
+
 
 div.gallery {
   margin: 5px;
@@ -53,15 +59,14 @@ div.desc {
   text-align: center;
 }
 
-#Contato {
+#Contato,#Formação,#Experiencia,#Qualificações{
   border: 1px solid black;
   height: 100%;
   width: 100%;
   padding: 10px;
-  margin: 10px;
-  
+  margin: 10px;  
 }
-
+/*
 #Formação{
   border: 1px solid black;
   height: 100%;
@@ -69,6 +74,7 @@ div.desc {
   padding: 10px;
   margin: 10px;
 }
+
 
 #Experiencia{
   border: 1px solid black;
@@ -84,7 +90,7 @@ div.desc {
   padding: 10px;
   margin: 10px;
 }
-
+*/
 
 
 /*h1 {
